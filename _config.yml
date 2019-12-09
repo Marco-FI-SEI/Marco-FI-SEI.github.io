@@ -1,11 +1,11 @@
 # Site settings
 author: Marco McNulty
-title: 
+title: Marco McNulty's Flatiron School Blog
 header-img: img/home-bg.png
 email: mmc90@hotmail.co.uk
 copyright_name: Marco McNulty
 description: > # this means to ignore newlines until "baseurl:"
-  
+  Personal experience and technical notes
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  Marco-FI-SEI
