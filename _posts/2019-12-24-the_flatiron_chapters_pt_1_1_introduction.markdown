@@ -1,0 +1,38 @@
+---
+layout: post
+title:      "The Flatiron Chapters, Pt. 1:1 — Introduction"
+date:       2019-12-24 23:16:39 +0000
+permalink:  the_flatiron_chapters_pt_1_1_introduction
+---
+
+
+As I neared the end of my business degree at Trinity College Dublin, I had started looking into what coding was and what it meant to be a programmer. The reason for this was simple — I was having difficulty deciding on a career path that was a logical next step for someone with my background. At the same time, I was coming across a lot of tech-related news across my social media channels and I was reading lots of exciting  articles on A.I, Machine Learning, Tesla, SpaceX, Robotics, Cryptocurrencies etc.
+
+What made a particularly big impact on me was that these technologies had seemingly come from nowhere. “How have I never heard about this before?” I’d constantly ask myself, as I read yet another article on some impressive A.I advancement or perhaps one of Tim Urban’s great essays on the "The Singularity". The quote below sums up succintly my situation and that of the general population.
+
+“If you think of like technology and technology awareness, if there was like a topological map of technology awareness, it’s mostly flat with a few short buildings, and then some very tall spires. And unless you’re on that very tall spire, it’s not obvious what the topology is.” — Elon Musk, World AI Conference Shanghai, 2019.
+
+By the time my final exams were over, I already knew that I did not just want to passively consume new technologies and be a bystander as this new wave of  innovations changed our lives for the better (or worse). I wanted to play a part no matter how big or small, and I remember how thrilling it was once I made that decision. It was a reveleation! I suddenly didn't feel lost anymore. Given my non-traditional background, however, that decision was as daunting as it was thrilling.
+
+At this point, I had heard of coding bootcamps but their considerable expense made them a non-option for me coming straight out of university. I had started dabbling with HTML on Codecademy and can still remember the overwhelming feeling of entering a completely alien realm of IDEs, code syntax, and the "programming mindset". Questions like “How do programmers remember all these symbols?”, “What’s the consequence of my indentation… how do I format all this?”, “I did all that just to output “Hello, World!”... I was already feeling overwhelmed and envisioning how long it would take before I could accomplish something truly meaningful, but I really had no idea yet how deep the rabbit hole would continue to grow, and I suspect my estimations are still way off…
+
+Light. Hope. Direction. It wasn’t long after I’d made the decision to pivot into tech that I’d come across CS50 and the delightful David Malan, whose lectures at Harvard (and indeed now the world via edX) were incredibly engaging and accessible thanks to his youthful vigour and passion for extending the bounds of computer science education beyond the typical demographic that might be found in lecture halls across the world.
+
+Starting with a visual, block-based programming language called Scratch to teach the fundamentals of conditionals, loops, flow and logic, the course then introduces you to C, albeit with training wheels, after which the training wheels are removed and you are left struggling with managing your program’s memory and dealing with pointers. You’re then invited to re-write your previous programs in Python, where you discover the magic of abstraction on which higher-level languages are built and marvel at how much easier it is (and how much shorter your code becomes) to reach the same solution.
+
+This was as far as I had gotten before enrolling in my Postgrad diploma at Dublin Business School. The course was government-funded due to an initiative to get more tech talent into the job market and included a three-month internship, so it seemed a no brainer at the time.
+The next nine months were hectic and intense, to say the least, as we covered topics including programming in C#, database design and management, operating systems, software development methodologies, virtual machines and containers, web app development with Rest Apis using the .Net framework. 
+
+Along with my experience with CS50, I did get a good overall grasp of some foundational concepts in software development. As our curriculum came to an end, we then entered an interview stage where we had to accept the first company that made us an offer. I still remember leaving my second interview on the first day of the interview round, thinking I would never want to work at that company. It was my first exposure to a noisy, open-plan, co-working office. I had been given a technical challenge to complete and I sat there wondering how on earth anyone got anything done in such an environment. I gladly left after a short meeting with the CTO but it was their offer I was going to be accepting later that day…
+
+Fast-forward a couple of years and I was pretty unhappy about my progression and devlopment as a developer thus far. My role required me to work primarily with AngularJS, TypeScript, JavaScript, SQL, HTML and CSS. Having really weak (basically neglible) JavaScript skills at the time really hurt me and I basically had to dive into AngularJS and TypeScript without the foundations that would enable me to be truly productive with those technologies. I persevered, however, and tread water by spending most of my free time learning these skills as best as I could. 
+
+My self-learning skills were definitely sub-optimal at this stage (I hadn't even heard of Udemy at the time) and I remember getting really frustrated and confused when I was looking for guides that would help me with a problem and it was achieved in very different ways. I thought that there had to be a "right way" to do it and bouncing from blog to article to website left me feeling totally over my head.
+
+After the first year at the company, the development of the software was becoming secondary to customer acquisition and I found my role was gradually migrating from development to more of a Product Manager type role and helping spearhead a Beta-Testing program in Ireland and the UK that would eventually get us our first clients. This period involved mainly requirements gathering, presentations to stakeholders, lots of travel, software testing (functional, user, acceptance testing), some website work on our own website and that of a client's, software training... a lot of things that basically did not involve a lot of programming on a daily basis.
+
+The broadening of my responsibilities and frequent travel made it impossible to assign me work according to a sprint (my team was following the Agile methodology) and I was finding that I was having to make up for the lack of programming heavily in my own time; this was extra challenging while I was abroad to push the Beta-Testing program.
+
+Eventually, I made the decision to move back to London and I continued to work for my company part-time and remotely. I thought about starting to apply for jobs but I also thought that this might also be a great time to join a coding bootcamp and really cement the fundamentals in web programming. Additionally, it would allow me to re-visit backend programming and give me some more tools in my arsenal alongside C# and the .NET environment. I was also under the impression that we would be taught some more traditional CS topics but so far this has unfortunately not been the case.
+
+So I quit my job, took three months to prepare as best as I could... and here we are!
