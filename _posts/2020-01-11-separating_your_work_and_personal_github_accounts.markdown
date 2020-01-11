@@ -78,10 +78,10 @@ You’ll notice that this differs from the override address we create in the .ss
 
 **VS**
 
-`github.com-your_work_github_user_name`
+* `github.com-your_work_github_user_name`
 
 
-`github.com-your_personal_github_user_name`
+* `github.com-your_personal_github_user_name`
 
 The next step is to configure git to correctly interpret these flags:
 
@@ -95,10 +95,10 @@ Before you can use your SSH keys, you need to start the ssh-agent and add your k
 
 To achieve all this quickly you can place the below scripts in your .zsh_rc or .bash_rc file and assign them to the appropriate alias:
 
-`alias YOUR_ALIAS_HERE='eval ssh-agent -s && ssh-add ~/.ssh/id_rsa_your_personal_github_user_name'`
+* `alias YOUR_ALIAS_HERE='eval ssh-agent -s && ssh-add ~/.ssh/id_rsa_your_personal_github_user_name'`
 
 
-`alias YOUR_DIFFERENT_ALIAS_HERE='eval ssh-agent -s && ssh-add ~/.ssh/id_rsa_your_work_github_user_name'`
+* `alias YOUR_DIFFERENT_ALIAS_HERE='eval ssh-agent -s && ssh-add ~/.ssh/id_rsa_your_work_github_user_name'`
 
 Now if I'm working with either account I just type the relevant alias in my shell and the ssh-agent will start and the required key loaded. If I'm working with both accounts in the same session, I can just run both aliases and the configuration in the SSH config file will keep things running smoothly.
 
