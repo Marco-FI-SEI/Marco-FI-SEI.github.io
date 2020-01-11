@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Separating your work and personal GitHub Accounts"
-date:       2020-01-11 22:01:52 +0000
+date:       2020-01-11 17:01:53 -0500
 permalink:  separating_your_work_and_personal_github_accounts
 ---
 
@@ -39,7 +39,9 @@ If you already had an SSH key for your personal account it may have looked somet
 You can either:
 
 a) Keep using this
+
 b) Generate a new one with a naming convention similar to what I recommended above and replace your previous key in your GitHub (leaving the original SSH intact on your machine)
+
 c) Delete it altogether if you don't use it for anything else. 
  
 Now, you need to open up your SSH config file: `nano ~/.ssh/config` and copy this in, replacing the details as required:
@@ -77,6 +79,7 @@ You’ll notice that this differs from the override address we create in the .ss
 **VS**
 
 `github.com-your_work_github_user_name`
+
 `github.com-your_personal_github_user_name`
 
 The next step is to configure git to correctly interpret these flags:
@@ -92,6 +95,7 @@ Before you can use your SSH keys, you need to start the ssh-agent and add your k
 To achieve all this quickly you can place the below scripts in your .zsh_rc or .bash_rc file and assign them to the appropriate alias:
 
 `alias YOUR_ALIAS_HERE='eval ssh-agent -s && ssh-add ~/.ssh/id_rsa_your_personal_github_user_name'`
+
 `alias YOUR_DIFFERENT_ALIAS_HERE='eval ssh-agent -s && ssh-add ~/.ssh/id_rsa_your_work_github_user_name'`
 
 Now if I'm working with either account I just type the relevant alias in my shell and the ssh-agent will start and the required key loaded. If I'm working with both accounts in the same session, I can just run both aliases and the configuration in the SSH config file will keep things running smoothly.
