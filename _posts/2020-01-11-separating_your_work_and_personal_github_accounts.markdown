@@ -31,8 +31,8 @@ When I first tackled this problem, I found that I was running into authenticatio
 
 Generate two SSH keys and name them something like:
 
-1. `id_rsa_your_personal_github_username`
-2. `id_rsa_your_work_github_username`
+1. id_rsa_your_personal_github_username
+2. id_rsa_your_work_github_username
 
 If you already had an SSH key for your personal account it may have looked something like "`~/.ssh/id_rsa`".
 
@@ -74,12 +74,12 @@ When you clone a repository from GitHub with SSH, you'll notice that the address
 
 You’ll notice that this differs from the override address we create in the .ssh config file to differentiate our GitHub accounts (due to the -flags after github.com, the git@ is implicit):
 
-`git@github.com:user_name/repo_name.git`
+git@github.com:user_name/repo_name.git
 
 **VS**
 
-* `github.com-your_work_github_user_name`
-* `github.com-your_personal_github_user_name`
+github.com-your_work_github_user_name
+github.com-your_personal_github_user_name
 
 The next step is to configure git to correctly interpret these flags:
 
@@ -93,8 +93,8 @@ Before you can use your SSH keys, you need to start the ssh-agent and add your k
 
 To achieve all this quickly you can place the below scripts in your .zsh_rc or .bash_rc file and assign them to the appropriate alias:
 
-* `alias YOUR_ALIAS_HERE='eval ssh-agent -s && ssh-add ~/.ssh/id_rsa_your_personal_github_user_name'`
-* `alias YOUR_DIFFERENT_ALIAS_HERE='eval ssh-agent -s && ssh-add ~/.ssh/id_rsa_your_work_github_user_name'`
+alias YOUR_ALIAS_HERE='eval ssh-agent -s && ssh-add ~/.ssh/id_rsa_your_personal_github_user_name'
+alias YOUR_DIFFERENT_ALIAS_HERE='eval ssh-agent -s && ssh-add ~/.ssh/id_rsa_your_work_github_user_name'
 
 Now if I'm working with either account I just type the relevant alias in my shell and the ssh-agent will start and the required key loaded. If I'm working with both accounts in the same session, I can just run both aliases and the configuration in the SSH config file will keep things running smoothly.
 
