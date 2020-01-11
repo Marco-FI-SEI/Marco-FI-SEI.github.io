@@ -80,6 +80,7 @@ You’ll notice that this differs from the override address we create in the .ss
 
 `github.com-your_work_github_user_name`
 
+
 `github.com-your_personal_github_user_name`
 
 The next step is to configure git to correctly interpret these flags:
@@ -95,6 +96,7 @@ Before you can use your SSH keys, you need to start the ssh-agent and add your k
 To achieve all this quickly you can place the below scripts in your .zsh_rc or .bash_rc file and assign them to the appropriate alias:
 
 `alias YOUR_ALIAS_HERE='eval ssh-agent -s && ssh-add ~/.ssh/id_rsa_your_personal_github_user_name'`
+
 
 `alias YOUR_DIFFERENT_ALIAS_HERE='eval ssh-agent -s && ssh-add ~/.ssh/id_rsa_your_work_github_user_name'`
 
