@@ -1,7 +1,7 @@
 ---
 layout: post
-title:      "Project: React/Redux and Rails - Phonix"
-date:       2020-03-04 16:01:18 +0000
+title:      "Project: React/Redux and Rails"
+date:       2020-03-04 11:01:19 -0500
 permalink:  project_react_redux_and_rails_-_phonix
 ---
 
